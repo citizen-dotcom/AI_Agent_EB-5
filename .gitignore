@@ -1,0 +1,18 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# SQLite database
+*.db
+
+# Word output
+*.docx
+
+# OS junk
+.DS_Store
+Thumbs.db
