@@ -63,16 +63,21 @@ The agent indexes discovered files (as needed) into the database and uses them f
 
 ## Getting started on Windows
 
-1. Install Python 3.10+ from python.org.
+1. Install Python 3.10+ from [python.org](https://www.python.org/downloads/).
 2. Clone or download this repository to your computer.
 3. Open a terminal (PowerShell) in the project folder.
 4. Install dependencies:
-
+```powershell
+pip install -r requirements.txt
+```
 
 ## Initializing the database on Windows
 
-The EB‑5 Agent uses Python’s built‑in sqlite3 library, so you don’t need the sqlite3.exe tool.
+The EB-5 Agent uses Python’s built-in `sqlite3` library, so you don’t need the `sqlite3.exe` tool.
 
 To initialize the schema:
 
-1. Run the helper script:
+Run the helper script:
+```powershell
+python init_db.py
+```
