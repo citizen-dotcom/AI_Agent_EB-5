@@ -61,7 +61,7 @@ The agent indexes discovered files (as needed) into the database and uses them f
 
 ---
 
-## Getting started on Windows
+# Getting started on Windows
 
 1. Install Python 3.10+ from [python.org](https://www.python.org/downloads/).
 2. Clone or download this repository to your computer.
